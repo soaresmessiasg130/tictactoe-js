@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+body{
+  background-color: #eee;
+  font-family: sans-serif;
+}
+
+.container{
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  margin: 100px auto;
+  border: 1px solid #cecece;
+  background-color: #008b8b;
+}
+
+.top{
+  position: relative;
+  width: 400px;
+  height: 100px;
+  background: #20b2aa;
+}
+
+.body{
+  margin-top: 10px;
+  position: relative;
+  width: 400px;
+  height: 400px;;
+}
+
+#icon1{
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#icon2{
+  margin-left: 10px;
+}
+
+.espaco{
+  position: relative;
+  margin: 5px;
+  border: 1px solid #60f4ee;
+  border-radius: 8px;
+  width: 120px;
+  height: 80px;
+  float: left;
+  background: -webkit-radial-gradient(circle,#60f4ee, #20b2aa);
+  background: -o-radial-gradient(circle,#60f4ee, #20b2aa);
+  background: -moz-radial-gradient(circle,#60f4ee, #20b2aa);
+  color: white;
+  font-size: 55px;
+  text-align: center;
+}
+#form{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+#campo1{
+  position: relative;
+  width: 30%;
+  float: left;
+  margin-top: 10px;
+}
+
+#campo2{
+  position: relative;
+  width: 30%;
+  float: right;
+  margin-top: 10px;
+}
+
+#p1{
+  width: 46%;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  float: left;
+}
+
+#p2{
+  width: 46%;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  float: right;
+}
+#vez{
+  width: 100px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+
+#simbolovez{
+  float: right;
+}

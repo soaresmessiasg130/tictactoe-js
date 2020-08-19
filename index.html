@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Jogo da Velha com JQuery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container">
+
+      <header class="top">
+
+        <center>
+          <form action="" id="form">
+
+            <input type="text" id="campo1" placeholder="Jogador 1">
+            <img id="icon1" src="_imagens/x.png">
+            <label for=""> VS </label>
+            <img id="icon2" src="_imagens/o.png">
+            <input type="text" id="campo2" placeholder="Jogador 2">
+          </form>
+
+          <div id="vez">
+            Vez de
+            <img id="simbolovez" src="_imagens/x.png">
+          </div>
+
+
+        </center>
+
+
+      </header>
+
+      <section class="body">
+
+        <div id="a1" class="espaco" jogada=""></div>
+        <div id="a2" class="espaco" jogada=""></div>
+        <div id="a3" class="espaco" jogada=""></div>
+        <div id="b1" class="espaco" jogada=""></div>
+        <div id="b2" class="espaco" jogada=""></div>
+        <div id="b3" class="espaco" jogada=""></div>
+        <div id="c1" class="espaco" jogada=""></div>
+        <div id="c2" class="espaco" jogada=""></div>
+        <div id="c3" class="espaco" jogada=""></div>
+
+
+      </section>
+
+
+
+    </div>
+    <script type="text/javascript" src="game.js"></script>
+  </body>
+</html>
