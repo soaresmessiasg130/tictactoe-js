@@ -9,29 +9,11 @@
 
   <body>
     <div class="container">
-      <header class="top">
-        <form action="" id="form">
-          <button onclick="restart">RESTART</button>
-
-          <br />
-
-          <input type="text" id="campo1" placeholder="Jogador 1" />
-
-          <img id="icon1" src="_imagens/x.png" />
-
-          <label for=""> VS </label>
-
-          <img id="icon2" src="_imagens/o.png" />
-
-          <input type="text" id="campo2" placeholder="Jogador 2" />
-        </form>
-
-        <div id="vez">
-          Vez do jogador <img id="simbolovez" src="_imagens/x.png" />
-        </div>
+      <header>
+        Vez do jogador: <img id="simbolovez" src="_imagens/x.png" />
       </header>
 
-      <section class="body">
+      <main>
         <div id="a1" class="espaco" jogada=""></div>
         <div id="a2" class="espaco" jogada=""></div>
         <div id="a3" class="espaco" jogada=""></div>
@@ -41,8 +23,9 @@
         <div id="c1" class="espaco" jogada=""></div>
         <div id="c2" class="espaco" jogada=""></div>
         <div id="c3" class="espaco" jogada=""></div>
-      </section>
+      </main>
     </div>
+
     <script type="text/javascript" src="game.js"></script>
   </body>
 </html>
